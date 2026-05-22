@@ -1,4 +1,4 @@
-interface Brand {
+interface BrandRaw {
   _id?: { $oid: string } | string;
   brandName?: unknown;
   yearFounded?: unknown;
@@ -11,4 +11,4 @@ interface Brand {
   [key: string]: unknown;
 }
 
-export default Brand;
+export default BrandRaw;
