@@ -1,7 +1,8 @@
 import express from "express";
 import connectDatabase from "./database";
 import dotenv from "dotenv";
-import { validateBrands } from "./service/transform-brands";
+import { validateBrands } from "./service/transform-brands.service";
+import { seedBrands } from "./service/data-seeding.service";
 
 dotenv.config();
 
@@ -11,6 +12,7 @@ const port = process.env.PORT ? Number(process.env.PORT) : 3000;
 async function main(): Promise<void> {
   await connectDatabase();
   await validateBrands();
+  await seedBrands();
 }
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);

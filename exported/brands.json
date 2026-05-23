@@ -1,0 +1,202 @@
+[
+  {
+    "_id": "66069ff93007b006635c0245",
+    "__v": 0,
+    "brandName": "Ward, Hand and Ortiz",
+    "createdAt": "2026-05-23T00:32:22.373Z",
+    "headquarters": "Jastside",
+    "numberOfLocations": 2132,
+    "updatedAt": "2026-05-23T00:32:22.373Z",
+    "yearFounded": 1970
+  },
+  {
+    "_id": "66069ff93007b006635c0246",
+    "__v": 0,
+    "brandName": "Ergonomic Frozen Bacon",
+    "createdAt": "2026-05-23T00:32:22.411Z",
+    "headquarters": "Gavinstead",
+    "numberOfLocations": 1,
+    "updatedAt": "2026-05-23T00:32:22.411Z",
+    "yearFounded": 1600
+  },
+  {
+    "_id": "66069ff93007b006635c0247",
+    "__v": 0,
+    "brandName": "Breitenberg, Greenholt and Ledner",
+    "createdAt": "2026-05-23T00:32:22.419Z",
+    "headquarters": "Fort Lenna",
+    "numberOfLocations": 1000,
+    "updatedAt": "2026-05-23T00:32:22.419Z",
+    "yearFounded": 1982
+  },
+  {
+    "_id": "66069ff93007b006635c0248",
+    "__v": 0,
+    "brandName": "Modern Granite Fish",
+    "createdAt": "2026-05-23T00:32:22.424Z",
+    "headquarters": "Kundebury",
+    "numberOfLocations": 1,
+    "updatedAt": "2026-05-23T00:32:22.424Z",
+    "yearFounded": 1970
+  },
+  {
+    "_id": "66069ff93007b006635c0249",
+    "__v": 0,
+    "brandName": "Gorgeous Granite Pizza",
+    "createdAt": "2026-05-23T00:32:22.430Z",
+    "headquarters": "Jonesborough",
+    "numberOfLocations": 1,
+    "updatedAt": "2026-05-23T00:32:22.430Z",
+    "yearFounded": 1980
+  },
+  {
+    "_id": "66069ff93007b006635c024a",
+    "__v": 0,
+    "brandName": "Oriental Plastic Pants",
+    "createdAt": "2026-05-23T00:32:22.436Z",
+    "headquarters": "Wardfort",
+    "numberOfLocations": 1,
+    "updatedAt": "2026-05-23T00:32:22.436Z",
+    "yearFounded": 1970
+  },
+  {
+    "_id": "66069ff93007b006635c024b",
+    "__v": 0,
+    "brandName": "Refined Granite Towels",
+    "createdAt": "2026-05-23T00:32:22.442Z",
+    "headquarters": "Lemkeland",
+    "numberOfLocations": 1,
+    "updatedAt": "2026-05-23T00:32:22.442Z",
+    "yearFounded": 1600
+  },
+  {
+    "_id": "66069ff93007b006635c024c",
+    "__v": 0,
+    "brandName": "Corkery Inc",
+    "createdAt": "2026-05-23T00:32:22.447Z",
+    "headquarters": "DuBuqueburgh",
+    "numberOfLocations": 9200,
+    "updatedAt": "2026-05-23T00:32:22.447Z",
+    "yearFounded": 1935
+  },
+  {
+    "_id": "66069ff93007b006635c024d",
+    "__v": 0,
+    "brandName": "Licensed Concrete Tuna",
+    "createdAt": "2026-05-23T00:32:22.453Z",
+    "headquarters": "West Mylesboro",
+    "numberOfLocations": 1,
+    "updatedAt": "2026-05-23T00:32:22.453Z",
+    "yearFounded": 1600
+  },
+  {
+    "_id": "66069ff93007b006635c024e",
+    "__v": 0,
+    "brandName": "Generic Cotton Pizza",
+    "createdAt": "2026-05-23T00:32:22.459Z",
+    "headquarters": "North Ralphport",
+    "numberOfLocations": 1,
+    "updatedAt": "2026-05-23T00:32:22.459Z",
+    "yearFounded": 1600
+  },
+  {
+    "_id": "6a10f596cb79f469057e4a64",
+    "brandName": "Abbott - Feeney",
+    "yearFounded": 1600,
+    "headquarters": "East Linwood, Burundi",
+    "numberOfLocations": 34,
+    "createdAt": "2026-05-23T00:32:22.477Z",
+    "updatedAt": "2026-05-23T00:32:22.477Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a10f596cb79f469057e4a65",
+    "brandName": "Parisian LLC",
+    "yearFounded": 2026,
+    "headquarters": "South Eloise, Malaysia",
+    "numberOfLocations": 2,
+    "createdAt": "2026-05-23T00:32:22.491Z",
+    "updatedAt": "2026-05-23T00:32:22.491Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a10f596cb79f469057e4a66",
+    "brandName": "Watsica Inc",
+    "yearFounded": 1781,
+    "headquarters": "Port Stephanie, Hungary",
+    "numberOfLocations": 1,
+    "createdAt": "2026-05-23T00:32:22.500Z",
+    "updatedAt": "2026-05-23T00:32:22.500Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a10f596cb79f469057e4a67",
+    "brandName": "Armstrong - Hyatt",
+    "yearFounded": 1915,
+    "headquarters": "East Warrenshire, Zambia",
+    "numberOfLocations": 49898,
+    "createdAt": "2026-05-23T00:32:22.508Z",
+    "updatedAt": "2026-05-23T00:32:22.508Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a10f596cb79f469057e4a68",
+    "brandName": "Kunze, Barton and Anderson",
+    "yearFounded": 1668,
+    "headquarters": "Murrieta, Palau",
+    "numberOfLocations": 143,
+    "createdAt": "2026-05-23T00:32:22.515Z",
+    "updatedAt": "2026-05-23T00:32:22.515Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a10f596cb79f469057e4a69",
+    "brandName": "Haley, Ledner and Maggio",
+    "yearFounded": 2015,
+    "headquarters": "Buckeye, Gibraltar",
+    "numberOfLocations": 12,
+    "createdAt": "2026-05-23T00:32:22.522Z",
+    "updatedAt": "2026-05-23T00:32:22.522Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a10f596cb79f469057e4a6a",
+    "brandName": "Nikolaus, Wyman and Kautzer",
+    "yearFounded": 1820,
+    "headquarters": "Pinellas Park, Antigua and Barbuda",
+    "numberOfLocations": 255,
+    "createdAt": "2026-05-23T00:32:22.530Z",
+    "updatedAt": "2026-05-23T00:32:22.530Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a10f596cb79f469057e4a6b",
+    "brandName": "Morissette - Erdman",
+    "yearFounded": 1989,
+    "headquarters": "東京, Japan",
+    "numberOfLocations": 2847,
+    "createdAt": "2026-05-23T00:32:22.537Z",
+    "updatedAt": "2026-05-23T00:32:22.537Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a10f596cb79f469057e4a6c",
+    "brandName": "Reichert Group",
+    "yearFounded": 1962,
+    "headquarters": "Westfurt, United Kingdom",
+    "numberOfLocations": 4046,
+    "createdAt": "2026-05-23T00:32:22.545Z",
+    "updatedAt": "2026-05-23T00:32:22.545Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a10f596cb79f469057e4a6d",
+    "brandName": "Haag, Runolfsson and Torphy",
+    "yearFounded": 1721,
+    "headquarters": "Loveland, Denmark",
+    "numberOfLocations": 1729,
+    "createdAt": "2026-05-23T00:32:22.552Z",
+    "updatedAt": "2026-05-23T00:32:22.552Z",
+    "__v": 0
+  }
+]

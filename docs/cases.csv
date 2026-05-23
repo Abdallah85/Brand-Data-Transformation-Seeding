@@ -1,0 +1,11 @@
+caseNumber,caseTitle,description,benefit,yearFounded,yearRange,headquartersExample,numberOfLocations
+1,yearFounded=1600,Minimum yearFounded,Checks the lower boundary,1600,1600,City,1-50
+2,yearFounded=current,Founded this year,Checks the upper boundary,current,CurrentYear,City,1-5
+3,numberOfLocations=1,Single location,Checks the minimum location count,varies,1600-CurrentYear,City,1
+4,large chain,10k-50k locations,Tests large scale data,varies,1900-1990,City,10000-50000
+5,historic brand,Founded 1600-1700,Tests very old brands,varies,1600-1700,City,1-200
+6,modern startup,Founded after 2010,Tests modern brands,varies,2010-CurrentYear,City,1-20
+7,brandName with spaces,Leading/trailing spaces,Tests trim handling,varies,1800-2000,City,1-500
+8,international HQ,Non-English city names,Tests international text,varies,1950-2010,Examples: 東京; São Paulo,5-3000
+9,mid-20th-century,Founded 1940-1970,Tests classic brands,varies,1940-1970,City,100-5000
+10,random mid-size,Fully randomised within valid ranges,Tests normal valid data,varies,1600-CurrentYear,City,1-10000

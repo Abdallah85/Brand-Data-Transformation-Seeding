@@ -3,6 +3,7 @@ import fs from "node:fs";
 import BrandRaw from "../types/Ibrand";
 import ValidationResult from "../types/Ivalidation-result";
 import Brand from "../schema/brands-schema";
+import mongoose from "mongoose";
 
 function resolveYearFounded(raw: BrandRaw): number {
   const MIN_YEAR = 1600;
@@ -71,7 +72,32 @@ export async function validateBrands(): Promise<void> {
       errors: validationError ? [validationError.message] : [],
       data: payload,
     });
-  }
 
-  console.log(JSON.stringify(results, null, 2));
+    if (!validationError) {
+      await Brand.findByIdAndUpdate(
+        new mongoose.Types.ObjectId(id),
+        {
+          $set: {
+            brandName: payload.brandName,
+            yearFounded: payload.yearFounded,
+            headquarters: payload.headquarters,
+            numberOfLocations: payload.numberOfLocations,
+          },
+          $unset: {
+            yearCreated: "",
+            yearsFounded: "",
+            hqAddress: "",
+            brand: "",
+          },
+        },
+        {
+          new: true,
+          upsert: true,
+          runValidators: true,
+        },
+      );
+    }
+
+    console.log(JSON.stringify(results, null, 2));
+  }
 }

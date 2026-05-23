@@ -1,6 +1,7 @@
 import mongoose, { Schema } from "mongoose";
+import { BrandData } from "../types/brand";
 
-const brandSchema = new Schema(
+const brandSchema = new Schema<BrandData>(
   {
     brandName: {
       type: String,
@@ -29,6 +30,6 @@ const brandSchema = new Schema(
   },
 );
 
-const Brand = mongoose.model("Brand", brandSchema);
+const Brand = mongoose.model<BrandData>("Brand", brandSchema);
 
 export default Brand;
